@@ -1,0 +1,155 @@
+body {
+  text-align: center;    /****centers****/
+  margin: 0;
+  font-family: 'Merriweather', serif;
+}
+
+head {
+  margin-top: 0;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  /*margin-top: 0;*/
+  /*margin: 0 auto 0 auto;K*/  /***margins clockwise from top - this centers h1****/
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+hr {
+  border-color: gray;
+  border-style: dotted none none none;
+  border-width: 5px;
+  width:5%;
+}
+
+
+
+/********************CLASS SELECTORS*************************/
+/************JUST ADD A PERIOD IN FRONT OF CLASS NAME*********/
+/************CLASSES CAN BE APPLIED TO MULTIPLE ELEMENTS*********/
+/**************ELEMENTS MAY HAVE MULTIPLE CLASS SELECTORS**************/
+
+.top-container {
+  background-color: #D0E8F2;
+  padding-top: 150px;
+  margin-top: 0;
+  position: relative;
+}
+
+.middle-container {
+  background-color: #EAF6F6;
+  margin-bottom: 0;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 100px;
+}
+
+.bottom-cloud {
+  position: absolute;
+}
+
+.profile {
+  padding-bottom: 30px;
+}
+
+.profile-pic {
+  border-radius: 100%;
+  margin-top: 20px;
+}
+
+.skills {
+  margin-top: 20px;
+}
+
+.skill-icon {
+  font-size: .75rem;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 75px auto;  /***this setup changes top/bottom (100px) and left/right margins (auto)***/
+  text-align: left;
+}
+
+.skill-text {
+  text-align: left;
+  line-height: 2;
+}
+
+.writing-image {
+  width: 25%;
+  float: left; /***moves image to left of other content in <div>; CLEAR does opposite***/
+  margin-right: 30px;
+}
+
+.computer-image {
+  width: 25%;
+  float: right;  /***moves image to right of other content in <div>; CLEAR does opposite***/
+  margin-left: 30px;
+}
+
+.contact-me {
+  padding: 20px;
+}
+
+.contact-button {
+   background: #66BFBF;
+   background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
+   background-image: -moz-linear-gradient(top, #66BFBF, #66BFBF);
+   background-image: -ms-linear-gradient(top, #66BFBF, #66BFBF);
+   background-image: -o-linear-gradient(top, #66BFBF, #66BFBF);
+   background-image: -webkit-gradient(to bottom, #66BFBF, #66BFBF);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #EAF6F6;
+   font-family: Helvetica;
+   font-size: 20px;
+   font-weight: 500;
+   padding: 15px;
+   text-shadow: 1px 1px 20px #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 50px;
+}
+
+.footer-link {
+  color: #11999E;
+  font-weight: bold;
+  text-decoration: none;
+  padding: : 20px;
+}
+
+.footer-copyright {
+  color: #EAF6F6;
+  font-size: .75em;
+  padding: 20px;
+}
